@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Розклад занять та реєстрація</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        form {
+            float: right;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            width: 30%;
+        }
+
+        input[type="text"], input[type="email"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Розклад занять</h1>
+
+    <table>
+        
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>Години</th>
+        <th>Понеділок</th>
+        <th>Вівторок</th>
+        <th>Середа</th>
+        <th>Четвер</th>
+        <th>П'ятниця</th>
+        <th>Субота</th>
+    </tr>
+    <tr>
+        <td>8:30 - 10:05</td>
+        <td>ФВ</td>
+        <td>Іноземна мова</td>
+        <td>ЗВП</td>
+        <td>ФВ</td>
+        <td>ФВ</td>
+        <td>СР</td>
+    </tr>
+    <tr>
+        <td>10:25 - 12:00</td>
+        <td>ЗВП</td>
+        <td>Право</td>
+        <td>ЗВП</td>
+        <td>Право</td>
+        <td>ТІМ</td>
+        <td>СР</td>
+    </tr>
+    <tr>
+        <td>12:10 - 13:55</td>
+        <td>ТС</td>
+        <td>ТІК</td>
+        <td>ПРОГ</td>
+        <td>ТС</td>
+        <td>ТІМ</td>
+        <td>СР</td>
+    </tr>
+    <tr>
+        <td>16:10 - 17:45</td>
+        <td>СР</td>
+        <td>СР</td>
+        <td>СР</td>
+        <td>ПРОГ</td>
+       <td>СР</td>
+        <td></td>
+        <td></td>
+    </tr>
+    </table>
+
+    <form action="реєстрація.php" method="post">
+        <h2>Реєстрація</h2>
+        <input type="text" name="ім'я" placeholder="Ім'я" required><br>
+        <input type="text" name="прізвище" placeholder="Прізвище" required><br>
+        <input type="email" name="email" placeholder="Електронна пошта" required><br>
+        <input type="password" name="пароль" placeholder="Пароль" required><br>
+        <input type="password" name="підтвердження_пароля" placeholder="Підтвердження пароля" required><br>
+        <input type="submit" value="Зареєструватися">
+    </form>
+<img src="png" alt="Логотип установи">
+
+</body>
+</html>
